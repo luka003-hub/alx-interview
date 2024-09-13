@@ -2,9 +2,8 @@
 """
 Define a function that rotates an nxn 2D matrix 90 degrees clockwise in-place.
 """
-
 def rotate_2d_matrix(matrix):
-    n = len(matrix)
+n = len(matrix)
 
     # Step 1: Transpose the matrix (swap rows with columns)
     for i in range(n):
@@ -17,7 +16,7 @@ def rotate_2d_matrix(matrix):
 
 # Test case
 if __name__ == "__main__":
-    matrix = [
+matrix = [
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]
@@ -25,4 +24,3 @@ if __name__ == "__main__":
 
     rotate_2d_matrix(matrix)
     print(matrix)
-
